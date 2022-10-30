@@ -22,7 +22,7 @@ export default function Layout() {
       >
         {Array.from(Array(6)).map((_, index) => (
           <Grid item xs={2} sm={4} md={4} key={index}>
-            <Item>xs=2</Item>
+            <Item>Content</Item>
           </Grid>
         ))}
       </Grid>
