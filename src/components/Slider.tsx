@@ -4,15 +4,15 @@ import "react-slideshow-image/dist/styles.css";
 
 const fadeImages = [
   {
-    url: "https://images.unsplash.com/photo-1592503254549-d83d24a4dfab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+    url: "https://shop.familyn.com/pub/media/wysiwyg/imageslider/slider-1-index17.jpg",
     caption: "First Slide",
   },
   {
-    url: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    url: "https://shop.familyn.com/pub/media/wysiwyg/imageslider/slider-2-index17.jpg",
     caption: "Second Slide",
   },
   {
-    url: "https://images.unsplash.com/photo-1495610379499-a1f03b4732a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    url: "https://shop.familyn.com/pub/media/wysiwyg/imageslider/slider-3-index17.jpg",
     caption: "Third Slide",
   },
 ];
@@ -27,7 +27,7 @@ const Slideshow = () => {
               <img
                 src={fadeImage.url}
                 alt={"No  internet"}
-                style={{ width: "100%", height: "50vh" }}
+                style={{ width: "100%", height: "75vh" }}
               />
             </div>
             <h2>{fadeImage.caption}</h2>
